@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{D49ED0B0-E3F5-40ED-91FD-53C9EA29D110}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{AE81DE40-7419-4D28-8AE2-7794EF096864}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{9F876FE6-ECB9-4059-A71B-AFA93E8965AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{2CA444CE-BE50-44A8-942D-181D5E6594DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{AE484709-F106-46AE-945A-2FC25F9D1AC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,10 @@ Global
 		{9F876FE6-ECB9-4059-A71B-AFA93E8965AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F876FE6-ECB9-4059-A71B-AFA93E8965AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F876FE6-ECB9-4059-A71B-AFA93E8965AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE484709-F106-46AE-945A-2FC25F9D1AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE484709-F106-46AE-945A-2FC25F9D1AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE484709-F106-46AE-945A-2FC25F9D1AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE484709-F106-46AE-945A-2FC25F9D1AC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
